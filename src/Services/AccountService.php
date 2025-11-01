@@ -76,7 +76,7 @@ readonly class AccountService
             'query' => [
                 'onlishopVersion' => $onlishopVersion,
                 'domain' => $licenseDomain,
-                'language' => 'en-GB',
+                'language' => 'en-US',
             ],
             'json' => [
                 'onlishopId' => $email,
@@ -102,7 +102,7 @@ readonly class AccountService
             'query' => [
                 'onlishopVersion' => $onlishopVersion,
                 'domain' => $licenseDomain,
-                'language' => 'en-GB',
+                'language' => 'en-US',
             ],
             'json' => [
                 'plugins' => [],
