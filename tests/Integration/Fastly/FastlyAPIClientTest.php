@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Integration\Fastly;
 
+use Onlishop\Deployment\Integration\Fastly\FastlyAPIClient;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Onlishop\Deployment\Integration\Fastly\FastlyAPIClient;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
 use Symfony\Contracts\HttpClient\HttpClientInterface;

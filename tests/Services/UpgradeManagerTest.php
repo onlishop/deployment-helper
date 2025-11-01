@@ -4,18 +4,18 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Services;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Config\ProjectConfiguration;
 use Onlishop\Deployment\Helper\ProcessHelper;
 use Onlishop\Deployment\Services\AccountService;
 use Onlishop\Deployment\Services\AppHelper;
 use Onlishop\Deployment\Services\HookExecutor;
 use Onlishop\Deployment\Services\OneTimeTasks;
-use Onlishop\Deployment\Services\PluginHelper;
 use Onlishop\Deployment\Services\OnlishopState;
+use Onlishop\Deployment\Services\PluginHelper;
 use Onlishop\Deployment\Services\UpgradeManager;
 use Onlishop\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\OutputInterface;
 use Zalas\PHPUnit\Globals\Attribute\Env;
 

@@ -5,11 +5,11 @@ declare(strict_types=1);
 namespace Onlishop\Deployment\Tests\Services;
 
 use Doctrine\DBAL\Connection;
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Config\ProjectConfiguration;
 use Onlishop\Deployment\Helper\ProcessHelper;
 use Onlishop\Deployment\Services\OneTimeTasks;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\OutputInterface;
 
 #[CoversClass(OneTimeTasks::class)]

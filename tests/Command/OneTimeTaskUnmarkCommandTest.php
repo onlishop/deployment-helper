@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Command;
 
+use Onlishop\Deployment\Command\OneTimeTaskUnmarkCommand;
+use Onlishop\Deployment\Services\OneTimeTasks;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Onlishop\Deployment\Command\OneTimeTaskUnmarkCommand;
-use Onlishop\Deployment\Services\OneTimeTasks;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Tester\CommandTester;
 

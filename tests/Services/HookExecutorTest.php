@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Services;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Config\ProjectConfiguration;
 use Onlishop\Deployment\Config\ProjectHooks;
 use Onlishop\Deployment\Helper\ProcessHelper;
 use Onlishop\Deployment\Services\HookExecutor;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(HookExecutor::class)]
 class HookExecutorTest extends TestCase

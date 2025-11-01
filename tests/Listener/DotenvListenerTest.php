@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Listener;
 
+use Onlishop\Deployment\Services\DotenvLoader;
 use PHPUnit\Framework\Attributes\BackupGlobals;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Onlishop\Deployment\Services\DotenvLoader;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Filesystem\Path;
 

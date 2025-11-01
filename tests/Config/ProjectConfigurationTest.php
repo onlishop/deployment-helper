@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Config;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Config\ProjectConfiguration;
 use Onlishop\Deployment\Config\ProjectHooks;
 use Onlishop\Deployment\Config\ProjectMaintenance;
 use Onlishop\Deployment\Config\ProjectStore;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(ProjectConfiguration::class)]
 #[CoversClass(ProjectHooks::class)]

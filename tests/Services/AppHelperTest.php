@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace Onlishop\Deployment\Tests\Services;
 
 use Doctrine\DBAL\Connection;
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\MockObject\MockObject;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Config\ProjectConfiguration;
 use Onlishop\Deployment\Config\ProjectExtensionManagement;
 use Onlishop\Deployment\Helper\ProcessHelper;
 use Onlishop\Deployment\Services\AppHelper;
 use Onlishop\Deployment\Services\AppLoader;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\MockObject\MockObject;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(AppHelper::class)]
 class AppHelperTest extends TestCase

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Helper;
 
+use Onlishop\Deployment\Helper\EnvironmentHelper;
 use PHPUnit\Framework\Attributes\BackupGlobals;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Onlishop\Deployment\Helper\EnvironmentHelper;
 
 /**
  * @internal

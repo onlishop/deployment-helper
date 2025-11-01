@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Integration\Fastly;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Event\PostDeploy;
 use Onlishop\Deployment\Integration\Fastly\FastlyAPIClient;
 use Onlishop\Deployment\Integration\Fastly\FastlyServiceUpdater;
 use Onlishop\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\Filesystem\Filesystem;
 use Zalas\PHPUnit\Globals\Attribute\Env;

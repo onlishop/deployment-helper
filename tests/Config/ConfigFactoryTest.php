@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Config;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Application;
 use Onlishop\Deployment\Config\ConfigFactory;
 use Onlishop\Deployment\Config\ProjectExtensionManagement;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 use Zalas\PHPUnit\Globals\Attribute\Env;
 
 #[CoversClass(ConfigFactory::class)]

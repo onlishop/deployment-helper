@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Integration;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Event\PostDeploy;
 use Onlishop\Deployment\Helper\ProcessHelper;
 use Onlishop\Deployment\Integration\PlatformSHSubscriber;
 use Onlishop\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\Console\Output\OutputInterface;
 use Zalas\PHPUnit\Globals\Attribute\Env;

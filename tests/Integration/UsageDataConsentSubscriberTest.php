@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Integration;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\MockObject\MockObject;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Event\PostDeploy;
 use Onlishop\Deployment\Integration\UsageDataConsentSubscriber;
 use Onlishop\Deployment\Services\SystemConfigHelper;
 use Onlishop\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\MockObject\MockObject;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 use Zalas\PHPUnit\Globals\Attribute\Env;
 

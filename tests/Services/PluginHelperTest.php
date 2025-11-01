@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Services;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\MockObject\MockObject;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Config\ProjectConfiguration;
 use Onlishop\Deployment\Config\ProjectExtensionManagement;
 use Onlishop\Deployment\Helper\ProcessHelper;
 use Onlishop\Deployment\Services\PluginHelper;
 use Onlishop\Deployment\Services\PluginLoader;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\MockObject\MockObject;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(PluginHelper::class)]
 class PluginHelperTest extends TestCase

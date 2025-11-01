@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Command;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Onlishop\Deployment\Command\RunCommand;
 use Onlishop\Deployment\Services\HookExecutor;
 use Onlishop\Deployment\Services\InstallationManager;
 use Onlishop\Deployment\Services\OnlishopState;
 use Onlishop\Deployment\Services\UpgradeManager;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Tester\CommandTester;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Zalas\PHPUnit\Globals\Attribute\Env;

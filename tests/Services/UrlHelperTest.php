@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Onlishop\Deployment\Tests\Services;
 
+use Onlishop\Deployment\Services\UrlHelper;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Onlishop\Deployment\Services\UrlHelper;
 
 /**
  * @internal

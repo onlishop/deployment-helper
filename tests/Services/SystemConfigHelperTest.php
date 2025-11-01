@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Onlishop\Deployment\Tests\Services;
 
 use Doctrine\DBAL\Connection;
+use Onlishop\Deployment\Services\SystemConfigHelper;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Onlishop\Deployment\Services\SystemConfigHelper;
 
 #[CoversClass(SystemConfigHelper::class)]
 class SystemConfigHelperTest extends TestCase
