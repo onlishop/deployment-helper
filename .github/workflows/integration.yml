@@ -45,7 +45,7 @@ jobs:
       - name: Install Deployment Helper
         run: composer require --dev 'onlishop/deployment-helper:*'
 
-      - name: Install PayPal
+      - name: Install SwagPlatformDemoData
         run: composer require 'onlishop-extension/platform-demo-data:*'
 
       - name: Install Onlishop using Helper
@@ -54,7 +54,7 @@ jobs:
       - name: Start Webserver
         run: symfony server:start -d --no-tls --allow-all-ip
 
-      - name: PayPal plugin should be installed
+      - name: SwagPlatformDemoData plugin should be installed
         run: ./bin/console plugin:list | grep SwagPlatformDemoData
 
       - name: Default Storefront should be available
@@ -94,7 +94,7 @@ jobs:
       - name: Install Deployment Helper
         run: composer require --dev 'onlishop/deployment-helper:*'
 
-      - name: Install PayPal
+      - name: Install SwagPlatformDemoData
         run: composer require 'onlishop-extension/platform-demo-data:*'
 
       - name: Install Onlishop and kill it after some seconds
@@ -109,7 +109,7 @@ jobs:
       - name: Start Webserver
         run: symfony server:start -d --no-tls --allow-all-ip
 
-      - name: PayPal plugin should be installed
+      - name: SwagPlatformDemoData plugin should be installed
         run: ./bin/console plugin:list | grep SwagPlatformDemoData
 
       - name: Default Storefront should be available
